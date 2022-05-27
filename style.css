@@ -13,6 +13,7 @@ body {
 .card-container{
  background-color: white;
  border-radius: 15px;
+ max-width: 450px;
 }
 
 .img img{
@@ -79,3 +80,15 @@ body {
 footer{
   margin-top: 50px;
 }
+
+@media screen and (max-width: 600px) {
+
+.card-container {
+  width: 375px; 
+  margin: auto;
+}
+.img img{
+  width: 375px;
+}
+}
+  
